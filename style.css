@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.music-list-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.music-list-section h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.music-list {
+    display: grid;
+    gap: 15px;
+}
+
+.music-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #e1e8ed;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.music-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    border-color: #3498db;
+}
+
+.music-item.playing {
+    border-color: #e74c3c;
+    background: #fff5f5;
+}
+
+.music-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.music-meta {
+    color: #7f8c8d;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.audio-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(44, 62, 80, 0.98);
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 15px;
+}
+
+.play-controls按钮{
+背景：RGBA((255，255，255，0.2)；
+边框：无；
+颜色：白色；
+字体大小：24pxPX；
+光标：指针；
+填料：12pxPX；
+边界半径：50%；
+过渡：所有0.3s轻松；3s轻松；.3s轻松；3s轻松；
+宽度：60pxPX；
+高度：60pxPX；
+显示：柔性；
+对齐项：居中；
+对齐-内容：居中；
+}
+
+.{
+背景：((，255，255，0.3背景：RGBA((.3背景：RGBA((
+变换：比例((1.1)；1.1)；
+}
+
+{{
+宽度：100%；
+余量：15px0px0；
+}
+
+{{
+文本对齐：居中；
+字体大小：1.1em；1em；.1em；1em；
+颜色：#ecf0f1；
+上边距：10pxPX；
+}
+
+@@@@(最大宽度：(最大宽度：768)
+正文{
+填料：15pxPX；
+}
+    
+表头h1{
+字体大小：2EM；
+}
+    
+.音乐列表部分{
+填料：20pxPX；
+}
+    
+.play-controls按钮{
+宽度：50pxPX；
+高度：50pxPX；
+字体大小：20pxPX；
+}
+     }
